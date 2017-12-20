@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="6dp"
+        android:id="@+id/tv_position"
+        android:textSize="16dp"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="position" />
+
+    <com.yehu.androidlimitcontacts.widget.CircleImageView
+        android:layout_toRightOf="@+id/tv_position"
+        android:id="@+id/iv_headIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="8dp"
+        app:border_width="2dp"
+        app:border_color="@android:color/background_dark" />
+
+    <TextView
+        android:layout_marginTop="6dp"
+        android:id="@+id/tv_name"
+        android:textSize="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_headIcon"
+        android:layout_toRightOf="@+id/iv_headIcon"
+        android:text="name" />
+
+    <TextView
+        android:layout_marginBottom="6dp"
+        android:id="@+id/tv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_headIcon"
+        android:layout_toRightOf="@+id/iv_headIcon"
+        android:text="phone" />
+
+</RelativeLayout>

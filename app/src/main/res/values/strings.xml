@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LimitContacts</string>
+    <string name="main_name">分页加载联系人</string>
+    <string name="count_tip">本设备共有 %1$d 条,共 %2$d 页，第 %3$d 页，加载 %4$d 条</string>
+</resources>
